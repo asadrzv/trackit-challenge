@@ -1,0 +1,6 @@
+framework module Pods_trackit_challenge {
+  umbrella header "Pods-trackit-challenge-umbrella.h"
+
+  export *
+  module * { export * }
+}
