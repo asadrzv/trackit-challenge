@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -67,17 +67,41 @@
 		24171B9B27DF7D0400CEE3CC /* trackit-challenge */ = {
 			isa = PBXGroup;
 			children = (
+				24171BA527DF7D0500CEE3CC /* Assets.xcassets */,
 				24171B9C27DF7D0400CEE3CC /* AppDelegate.swift */,
 				24171B9E27DF7D0400CEE3CC /* SceneDelegate.swift */,
-				24FEFC2B27E5047F00CFC774 /* AddPackageViewController.swift */,
-				24FEFC2E27E553E100CFC774 /* HomeViewController.swift */,
-				24FEFC2627E40FE200CFC774 /* PackageCell.swift */,
-				24171BA227DF7D0400CEE3CC /* Main.storyboard */,
-				24171BA527DF7D0500CEE3CC /* Assets.xcassets */,
-				24171BA727DF7D0500CEE3CC /* LaunchScreen.storyboard */,
+				243D310D27E69143004E3240 /* Cells */,
+				243D310E27E69154004E3240 /* Controllers */,
+				243D310F27E6916B004E3240 /* Storyboards */,
 				24171BAA27DF7D0500CEE3CC /* Info.plist */,
 			);
 			path = "trackit-challenge";
+			sourceTree = "<group>";
+		};
+		243D310D27E69143004E3240 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				24FEFC2627E40FE200CFC774 /* PackageCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		243D310E27E69154004E3240 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24FEFC2E27E553E100CFC774 /* HomeViewController.swift */,
+				24FEFC2B27E5047F00CFC774 /* AddPackageViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		243D310F27E6916B004E3240 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				24171BA227DF7D0400CEE3CC /* Main.storyboard */,
+				24171BA727DF7D0500CEE3CC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		D1AEBCFDBD0077211447AC29 /* Frameworks */ = {
@@ -94,7 +118,6 @@
 				5D2A3CC7B3F9940EECDE23F5 /* Pods-trackit-challenge.debug.xcconfig */,
 				A3833BCB15731C820B80C741 /* Pods-trackit-challenge.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
